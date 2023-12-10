@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin: 25px 0 0 40px;
+}
+
+.a-header {
+    line-height: 18px;
+    margin-right: 18px;
+    font-size: 20px;
+    font-weight:700;
+    color: #A5A5A8,
+    text-transform: uppercase;
+    opacity: 0.5;
+    
+
+
+}
+
+.b-header {
+    height: 35px;
+    width: 110px;
+}
+
+img {
+    /* height: 450px; */
+    display:inline-block;
+    
+}
+
+div {
+    display:inline-block;
+    height: 50vh;
+    width: 50vw;
+}
+
+h1 {
+    font-size: 130px;
+    color: #555557;
+}
+
+h2 {
+    color: #555557;
+}
+
+p {
+    color: #A5A5A8;
+    opacity: none;
+}
