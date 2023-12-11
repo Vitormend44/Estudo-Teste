@@ -10,26 +10,34 @@ header {
 }
 
 .a-header {
+    cursor: pointer;
+    opacity: .5;
     line-height: 18px;
-    margin-right: 18px;
+    margin-right: 22px;
     font-size: 20px;
     font-weight:700;
-    color: #A5A5A8,
     text-transform: uppercase;
-    opacity: 0.5;
-    
-
-
+    color: #A5A5A8,
 }
+
 
 .b-header {
     height: 35px;
     width: 110px;
+    background: #825FF5;
+    border: none;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 img {
-    /* height: 450px; */
+    height: 450px;
     display:inline-block;
+    margin: 60px 30px 0 50px;
     
 }
 
@@ -37,18 +45,40 @@ div {
     display:inline-block;
     height: 50vh;
     width: 50vw;
+    position: fixed;
+    margin: 50px 10px 0 120px;
 }
 
 h1 {
+    font-weight: 800;
     font-size: 130px;
     color: #555557;
 }
 
 h2 {
     color: #555557;
+    font-weight: 500;
+    font-size: 40px;
 }
 
 p {
-    color: #A5A5A8;
-    opacity: none;
+    color: #5F6C7A;
+    opacity: .7;
+    font-size: 18px;
+    line-height: 24px;
+    width: 500px;
+    margin: 30px 0;
+    font-weight: 600;
+}
+
+.b-div {
+    background: #B3F542;
+    height: 45px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 23px;
+    box-shadow: 5px 4px 16px #000000;
+    cursor: pointer;
 }
